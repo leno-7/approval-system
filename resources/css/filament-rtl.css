@@ -1,0 +1,125 @@
+/* Filament RTL Customizations */
+html[dir="rtl"],
+body[dir="rtl"],
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Fix sidebar positioning */
+[dir="rtl"] .filament-sidebar {
+    right: 0;
+    left: auto;
+}
+
+[dir="rtl"] .filament-main {
+    margin-right: 16rem;
+    margin-left: 0;
+}
+
+[dir="rtl"] .filament-main-content {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+[dir="rtl"] .filament-header {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+/* Fix tables */
+[dir="rtl"] .filament-tables-container {
+    direction: rtl;
+}
+
+[dir="rtl"] .filament-tables-table th,
+[dir="rtl"] .filament-tables-table td {
+    text-align: right;
+}
+
+/* Fix forms */
+[dir="rtl"] .filament-forms-container {
+    direction: rtl;
+}
+
+[dir="rtl"] .filament-forms-field-wrapper label {
+    text-align: right;
+}
+
+/* Fix navigation */
+[dir="rtl"] .filament-sidebar-nav {
+    direction: rtl;
+}
+
+[dir="rtl"] .filament-sidebar-nav-item {
+    text-align: right;
+}
+
+/* Fix dropdowns */
+[dir="rtl"] .filament-dropdown {
+    right: 0;
+    left: auto;
+}
+
+/* Fix modals */
+[dir="rtl"] .filament-modal {
+    direction: rtl;
+}
+
+/* Fix breadcrumbs */
+[dir="rtl"] .filament-breadcrumbs {
+    direction: rtl;
+}
+
+/* Fix actions */
+[dir="rtl"] .filament-actions {
+    direction: rtl;
+}
+
+/* Fix pagination */
+[dir="rtl"] .filament-pagination {
+    direction: rtl;
+}
+
+/* Improve Arabic font rendering */
+[dir="rtl"] * {
+    font-family: 'Amiri', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fix specific Filament components */
+[dir="rtl"] .filament-page {
+    direction: rtl;
+}
+
+[dir="rtl"] .filament-widget {
+    direction: rtl;
+}
+
+[dir="rtl"] .filament-card {
+    direction: rtl;
+}
+
+/* Fix button groups */
+[dir="rtl"] .filament-button-group {
+    direction: rtl;
+}
+
+/* Fix tabs */
+[dir="rtl"] .filament-tabs {
+    direction: rtl;
+}
+
+/* Fix notifications */
+[dir="rtl"] .filament-notifications {
+    direction: rtl;
+}
+
+/* Fix global search */
+[dir="rtl"] .filament-global-search {
+    direction: rtl;
+}
+
+/* Fix user menu */
+[dir="rtl"] .filament-user-menu {
+    direction: rtl;
+} 

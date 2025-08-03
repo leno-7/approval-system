@@ -1,0 +1,82 @@
+/* Filament RTL Styles - Force RTL */
+html, body {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* Fix sidebar */
+.filament-sidebar {
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* Fix main content */
+.filament-main {
+    margin-right: 16rem !important;
+    margin-left: 0 !important;
+}
+
+/* Fix tables */
+.filament-tables-table th,
+.filament-tables-table td {
+    text-align: right !important;
+}
+
+/* Fix forms */
+.filament-forms-field-wrapper label {
+    text-align: right !important;
+}
+
+/* Fix navigation */
+.filament-sidebar-nav {
+    direction: rtl !important;
+}
+
+/* Fix dropdowns */
+.filament-dropdown {
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* Arabic font */
+* {
+    font-family: 'Amiri', 'Noto Naskh Arabic', serif !important;
+}
+
+/* Fix all Filament components */
+.filament-page,
+.filament-widget,
+.filament-card,
+.filament-button-group,
+.filament-tabs,
+.filament-notifications,
+.filament-global-search,
+.filament-user-menu {
+    direction: rtl !important;
+}
+
+/* Fix specific positioning */
+.filament-header {
+    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+}
+
+.filament-main-content {
+    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+}
+
+/* Fix breadcrumbs */
+.filament-breadcrumbs {
+    direction: rtl !important;
+}
+
+/* Fix actions */
+.filament-actions {
+    direction: rtl !important;
+}
+
+/* Fix pagination */
+.filament-pagination {
+    direction: rtl !important;
+} 
