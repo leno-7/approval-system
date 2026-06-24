@@ -1,73 +1,88 @@
-# مشروع Laravel مع Filament
+# Laravel Filament Project
 
-هذا مشروع Laravel يستخدم Filament كواجهة إدارية.
+This is a Laravel project developed by **Leen Hani Alhazmi**. The system uses Filament as an admin panel for managing projects, contracts, financial records, and approvals.
 
-## المميزات
+## Features
 
-- Laravel Framework
-- Filament Admin Panel
-- دعم اللغة العربية
-- نظام إدارة المشاريع
-- نظام العقود
-- نظام الشؤون المالية
-- نظام الموافقات
+* Laravel Framework
+* Filament Admin Panel
+* Arabic language support
+* Project management system
+* Contract management system
+* Financial management system
+* Approval workflow system
 
-## متطلبات النظام
+## System Requirements
 
-- PHP 8.1+
-- Composer
-- Node.js & NPM
-- MySQL/PostgreSQL
+* PHP 8.1+
+* Composer
+* Node.js & NPM
+* MySQL or PostgreSQL
 
-## التثبيت
+## Installation
 
-1. استنسخ المشروع:
+1. Clone the repository:
+
 ```bash
-git clone [رابط المستودع]
+git clone [repository-link]
 cd my-project
 ```
 
-2. ثبت التبعيات:
+2. Install PHP and JavaScript dependencies:
+
 ```bash
 composer install
 npm install
 ```
 
-3. انسخ ملف البيئة:
+3. Copy the environment file:
+
 ```bash
 cp .env.example .env
 ```
 
-4. أنشئ مفتاح التطبيق:
+4. Generate the application key:
+
 ```bash
 php artisan key:generate
 ```
 
-5. عدّل إعدادات قاعدة البيانات في ملف `.env`
+5. Update the database configuration in the `.env` file.
 
-6. قم بتشغيل الهجرات:
+6. Run the database migrations:
+
 ```bash
 php artisan migrate
 ```
 
-7. شغل البناء:
+7. Build the frontend assets:
+
 ```bash
 npm run build
 ```
 
-8. شغل الخادم:
+8. Start the local development server:
+
 ```bash
 php artisan serve
 ```
 
-## الوصول للوحة الإدارية
+## Admin Panel Access
 
-يمكنك الوصول للوحة الإدارية على: `http://localhost:8000/admin`
+You can access the admin panel at:
 
-## المساهمة
+```text
+http://localhost:8000/admin
+```
 
-نرحب بالمساهمات! يرجى إنشاء fork للمشروع وإرسال pull request.
+## Author
 
-## الرخصة
+**Leen Hani Alhazmi**
 
-هذا المشروع مرخص تحت رخصة MIT. 
+## Contribution
+
+Contributions are welcome. Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
